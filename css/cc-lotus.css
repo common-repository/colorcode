@@ -1,0 +1,72 @@
+/* Generics */
+.DlHighlight {
+    width: auto;
+    background-color: rgba(214, 214, 214, 0.2);
+    border-left: 5px solid #d8d8d8;
+    font-family: Monaco,'PT Serif', 'Hiragino Sans GB';
+    color: #1F0909;
+    overflow: auto;
+}
+
+.DlHighlight .operand { color: #690; }
+.DlHighlight .keyword { color: #da573a; }
+
+.DlHighlight .builtin { color: #4a4a4a; }
+
+.DlHighlight .string { color: #065588; }
+.DlHighlight .string .before, .DlHighlight .string .after { color: #686868; }
+
+.DlHighlight .regexp { color: #da573a; }
+.DlHighlight .regexp .before, .DlHighlight .regexp .after { color: #4a4a4a; font-weight: bold; }
+
+.DlHighlight .comment { color: #ababab; }
+.DlHighlight .comment .before, .DlHighlight .comment .after { color: #ababab; }
+
+.DlHighlight .hashkey { color: #da573a; }
+
+.DlHighlight .hasharrow { color: #4a4a4a; }
+
+.DlHighlight .paren {  color: #4a4a4a;}
+
+.DlHighlight .operator { color: #4a4a4a; }
+
+.DlHighlight .error { background-color: #c00; color: #fff; }
+
+.DlHighlight .defun { color: #4a4a4a;    }
+
+.DlHighlight .line-numbers {
+    float: left;
+    width: 3em;
+    margin-left: -10px;
+    text-align: center;
+    color: #bcbcbc;
+    margin-right: 1em;
+    border-right: 1px solid #d9d9d9;
+}
+
+/* XML */
+
+.DlHighlight .xml-tag-open, .DlHighlight .xml-tag-close { color: #da573a; }
+.DlHighlight .xml-tag-close .before { color: #4a4a4a; }
+.DlHighlight .xml-tagangle { color: #4a4a4a; }
+.DlHighlight .xml-attribute { color: #690; }
+
+.DlHighlight .xml-entity { color: #732908; }
+.DlHighlight .xml-entity .before, .DlHighlight .xml-entity .after { color: #4a4a4a; }
+
+/* CSS */
+.DlHighlight .css-element { color: #da573a; }
+.DlHighlight .css-class { color: #da573a;font-weight: 500;}
+.DlHighlight .css-pseudo-class { color: #da573a; }
+.DlHighlight .css-id { color:#da573a; font-weight: 500;}
+.DlHighlight .css-color-spec { color: #690; }
+.DlHighlight .css-length { color: #690; }
+.DlHighlight .css-length .after { font-weight: bold; }
+.DlHighlight .css-keyword { color: #474747; }
+.DlHighlight .css-keyword .after { color: #ABABAB; }
+.DlHighlight .css-attribute { color: #065588; }
+.DlHighlight .css-comma { color: red; }
+.DlHighlight .css-url { color: #4a4a4a; }
+.DlHighlight .css-brack-open { color: #4a4a4a; }
+.DlHighlight .css-brack-close { color: #4a4a4a; }
+.DlHighlight .css-end { color: #ababab; }
